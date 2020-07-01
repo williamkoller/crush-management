@@ -1,0 +1,29 @@
+{
+	"name": "crush-management",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server.ts",
+	"scripts": {
+		"start": "NODE_ENV=development nodemon ./node_modules/.bin/ts-node ./server/server.ts"
+	},
+	"author": "William Koller",
+	"license": "ISC",
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"express": "^4.17.1",
+		"http-status": "^1.4.2",
+		"mongoose": "^5.9.20",
+		"morgan": "^1.10.0"
+	},
+	"devDependencies": {
+		"@types/body-parser": "^1.19.0",
+		"@types/express": "^4.17.6",
+		"@types/http-status": "^1.1.2",
+		"@types/mongoose": "^5.7.29",
+		"@types/morgan": "^1.9.1",
+		"@types/node": "^14.0.14",
+		"nodemon": "^2.0.4",
+		"ts-node": "^8.10.2",
+		"typescript": "^3.9.5"
+	}
+}
