@@ -30,9 +30,7 @@ class App {
 	}
 
 	routes() {
-		this.app
-			.route('/')
-			.get((req, res) => res.status(200).json({ message: 'Hello World' }))
+		this.app.route('/').get((req, res) => res.redirect('/api/crushs'))
 	}
 
 	dataBaseConnection() {
